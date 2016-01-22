@@ -6,7 +6,7 @@ class Str{
         String str2 = new String("a");
         // The variables are pointing to 2 different values in memory
         System.out.println(str1 == str2); // false
-        // .equals() method to check the content of the string
+        // .equals() method to compare character sequence of the strings
         System.out.println(str1.equals(str2)); // true
         // .equals() can be used to compare string literal and string object
         System.out.println("a".equals("a")); // true
