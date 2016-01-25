@@ -16,5 +16,14 @@ class Array{
         for (int num: myNums){
             System.out.println(num);
         }
+        System.out.println("Example using enhanced for loop");
+        int myNewNums[] = {1,2,3,4,5};
+        // iterator in enhanced for loop: read-only
+        for (int newNum: myNewNums){
+            newNum *= 10;
+        }
+        for (int newNum: myNewNums){
+            System.out.println(newNum);
+        }
     }
 }
