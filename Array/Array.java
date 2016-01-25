@@ -9,5 +9,12 @@ class Array{
         for (String name: names){
             System.out.println(name);
         }
+        int myNums[] = {1,2,3,4,5};
+        for (int i = 0; i < myNums.length; i++){
+            myNums[i] *= 10;
+        }
+        for (int num: myNums){
+            System.out.println(num);
+        }
     }
 }
