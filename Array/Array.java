@@ -13,6 +13,7 @@ class Array{
         for (int i = 0; i < myNums.length; i++){
             myNums[i] *= 10;
         }
+        // log the array elements
         for (int num: myNums){
             System.out.println(num);
         }
@@ -22,6 +23,7 @@ class Array{
         for (int newNum: myNewNums){
             newNum *= 10;
         }
+        // log the array elements
         for (int newNum: myNewNums){
             System.out.println(newNum);
         }
