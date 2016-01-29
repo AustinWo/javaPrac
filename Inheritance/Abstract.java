@@ -2,3 +2,14 @@
 abstract class Animal {
     abstract void sayType();
 }
+
+class Bird extends Animal {
+    void sayType(){
+        System.out.println("I am a bird");
+    }
+}
+
+abstract class Fish extends Animal {
+    // if the subclass doesnt implement (override the method), the method must be mark abstract
+    abstract void sayType();
+}
