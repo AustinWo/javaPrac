@@ -27,6 +27,7 @@ class Static{
         Car car2 = new Car();
         System.out.println(car1.serialNumber);
         System.out.println(car2.serialNumber);
+        // Static method is called wuth the class name, not an instance of the class
         Car.makeHonkNoise();
         System.out.println("There are " + Car.getNumCarsOnTheMarket() + " cars on the market.");
     }
