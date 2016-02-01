@@ -6,5 +6,8 @@ class Casting{
         int ranNumInteger = (int) ranNum;
         // string concatenation (not recommended)
         String str = "" + ranNumInteger;
+        String oneStr = "1";
+        // parse an integer from a string
+        int ontInt = Integer.parseInt(oneStr);
     }
 }
