@@ -4,5 +4,7 @@ class Casting{
         double ranNum = Math.random();
         // cast a number into an integer
         int ranNumInteger = (int) ranNum;
+        // string concatenation (not recommended)
+        String str = "" + ranNumInteger;
     }
 }
