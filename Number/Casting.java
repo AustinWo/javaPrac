@@ -9,5 +9,8 @@ class Casting{
         String oneStr = "1";
         // parse an integer from a string
         int ontInt = Integer.parseInt(oneStr);
+        int num = 201;
+        byte myNumnum = (byte) num;
+        System.out.println(myNumnum);
     }
 }
