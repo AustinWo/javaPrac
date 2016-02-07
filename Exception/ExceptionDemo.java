@@ -6,6 +6,7 @@ class ExceptionDemo {
         for (int i = 0; i < numerator.length+1; i++){
             try {
                 System.out.println(Integer.toString(numerator[i]/denominator[i]));
+            // can use one try block with multiple catch blocks
             } catch (ArrayIndexOutOfBoundsException exception) {
                 System.out.println("Oops that element doesn't exist");
             } catch (ArithmeticException exception) {
