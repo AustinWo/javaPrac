@@ -1,3 +1,11 @@
+// compile by running executing
+// javac bookpack/BookDemo.java
+
+// Execute the class in parent directory by
+// java bookpack.BookDemo
+
+// BookDemo and Book are not part of the package bookpack and connot be executed by itself
+
 package bookpack; // this file is part of the bookpack package
 
 class Book {
