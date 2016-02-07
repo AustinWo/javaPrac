@@ -17,6 +17,12 @@ class Book {
 
 class BookDemo {
     public static void main (String[] args){
-
+        Book[] myBooks = new Book[3];
+        myBooks[0] = new Book("Michael", "The art of Java");
+        myBooks[1] = new Book("Kevin", "The art of JavaScript");
+        myBooks[2] = new Book("Liam", "The art of Python");
+        for(Book currentBook: myBooks){
+            currentBook.show();
+        }
     }
 }
