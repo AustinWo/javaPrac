@@ -7,5 +7,6 @@ class ExceptionDemo {
         } catch (ArrayIndexOutOfBoundsException exception) {
             System.out.println("Oops something went wrong");
         }
+        System.out.println("resume flow");
     }
 }
