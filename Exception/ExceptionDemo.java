@@ -11,6 +11,9 @@ class ExceptionDemo {
                 System.out.println("Oops that element doesn't exist");
             } catch (ArithmeticException exception) {
                 System.out.println("cannot divide by 0");
+            // superclass must be caught last, otherwise nonreachable code error
+            } catch (Throwable exeption) {
+                System.out.println("error: unreachable code");
             }
         }
         System.out.println("resume flow");
