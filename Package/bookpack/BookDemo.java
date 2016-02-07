@@ -9,7 +9,10 @@ class Book {
         bookTitle = b;
     }
 
-
+    void show(){
+        System.out.println(author);
+        System.out.println(bookTitle);
+    }
 }
 
 class BookDemo {
