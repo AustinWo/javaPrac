@@ -4,6 +4,8 @@ class ExceptionDemo {
         try {
             int[] nums = new int[5];
             nums[6] = 7;
+        } catch (ArrayIndexOutOfBoundsException exception) {
+            System.out.println("Oops something went wrong");
         }
     }
 }
