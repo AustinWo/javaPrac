@@ -4,6 +4,9 @@ interface Greetings {
     default void sayBye(){
         System.out.println("default bye bye");
     }
+    default void sayByeToBeOverridden(){
+        System.out.println("default bye bye to be overridden");
+    }
 }
 
 class Person implements Greetings {
