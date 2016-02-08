@@ -7,6 +7,9 @@ interface Greetings {
     default void sayByeToBeOverridden(){
         System.out.println("default bye bye to be overridden");
     }
+    static void sayByeBye(){
+        System.out.println("bye bye bye bye");
+    }
 }
 
 class Person implements Greetings {
