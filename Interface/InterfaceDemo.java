@@ -13,6 +13,10 @@ interface Greetings {
 }
 
 class Person implements Greetings {
+    // implemented method must be public
+    public void sayHello(){
+        System.out.println("hello");
+    }
 }
 
 class InterfaceDemo {
