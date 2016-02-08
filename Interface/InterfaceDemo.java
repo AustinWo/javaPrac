@@ -25,4 +25,9 @@ class Person implements Greetings {
 
 class InterfaceDemo {
     public static void main (String[] args){
+        Person Austin = new Person();
+        Austin.sayHello();
+        // default interface method doesn't have to be overriden by the class implementing the interface
+        Austin.sayBye();
+    }
 }
