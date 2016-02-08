@@ -29,5 +29,8 @@ class InterfaceDemo {
         Austin.sayHello();
         // default interface method doesn't have to be overriden by the class implementing the interface
         Austin.sayBye();
+        Austin.sayByeToBeOverridden();
+        // static interface method is called with the interface name
+        Greetings.sayByeBye();
     }
 }
