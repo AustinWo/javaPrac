@@ -17,6 +17,10 @@ class Person implements Greetings {
     public void sayHello(){
         System.out.println("hello");
     }
+    // default interface method can be overridden
+    public void sayByeToBeOverridden(){
+        System.out.println("new bye bye");
+    }
 }
 
 class InterfaceDemo {
