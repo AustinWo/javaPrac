@@ -8,6 +8,12 @@ class ExtBook extends bookpack.Book {
         super(a, b);
         publisher = p;
     }
+
+    public void show(){
+        super.show();
+        System.out.println(publisher);
+        System.out.println();
+    }
 }
 
 
