@@ -27,5 +27,11 @@ class ExtBook extends bookpack.Book {
 
 class ProtectDemo {
     public static void main (String[] args){
+        ExtBook[] books = new ExtBook[2];
+        books[0] = new ExtBook("Kim", "Visit Korea", "Korean Publisher ltd.");
+        books[1] = new ExtBook("Suzuki", "Visit Japan", "Tokyo Publisher ltd.");
+        for (ExtBook book: books){
+            book.show();
+        }
     }
 }
