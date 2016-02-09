@@ -14,6 +14,10 @@ class ExtBook extends bookpack.Book {
         System.out.println(publisher);
         System.out.println();
     }
+
+    public String getPublisher() {return publisher;}
+    public void setPublisher(String p) {publisher = p;}
+
 }
 
 
