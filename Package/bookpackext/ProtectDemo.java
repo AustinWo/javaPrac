@@ -18,6 +18,10 @@ class ExtBook extends bookpack.Book {
     public String getPublisher() {return publisher;}
     public void setPublisher(String p) {publisher = p;}
 
+    // these are ok because subclass can access protected members
+    // Book's author and bookTitle are protected
+    public String getAuthor() {return author;}
+    public String getBookTitle() {return bookTitle;}
 }
 
 
