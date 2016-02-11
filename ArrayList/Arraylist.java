@@ -16,4 +16,7 @@ class Arraylist {
         System.out.println(names.indexOf("Steven")); // 1
         // check if the ArrayList is empty
         System.out.println(names.isEmpty()); // false
+        // get the size of the ArrayList
+        // ** not .length like Array or .length() like String
+        System.out.println(names.size()); // 3
 }
