@@ -19,4 +19,6 @@ class Arraylist {
         // get the size of the ArrayList
         // ** not .length like Array or .length() like String
         System.out.println(names.size()); // 3
+        // .contains(element)
+        System.out.println(names.contains("Ivan")); // false
 }
