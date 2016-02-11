@@ -23,4 +23,11 @@ class Arraylist {
         System.out.println(names.contains("Ivan")); // false
         // .get(indexNumber)
         System.out.println(names.get(2)); // Mark
+
+        System.out.println("======");
+        // for loop
+        for (int i = 0; i < names.size(); i++){
+            System.out.println(names.get(i));
+        }
+    }
 }
