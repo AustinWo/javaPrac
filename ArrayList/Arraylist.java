@@ -12,4 +12,6 @@ class Arraylist {
         names.add("Steven");
         names.add("Mark");
         System.out.println(names); // [Austin, Steven, Mark]
+        // get the index number of an element
+        System.out.println(names.indexOf("Steven")); // 1
 }
