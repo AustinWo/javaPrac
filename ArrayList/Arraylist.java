@@ -14,4 +14,6 @@ class Arraylist {
         System.out.println(names); // [Austin, Steven, Mark]
         // get the index number of an element
         System.out.println(names.indexOf("Steven")); // 1
+        // check if the ArrayList is empty
+        System.out.println(names.isEmpty()); // false
 }
