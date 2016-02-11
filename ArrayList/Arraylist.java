@@ -21,4 +21,6 @@ class Arraylist {
         System.out.println(names.size()); // 3
         // .contains(element)
         System.out.println(names.contains("Ivan")); // false
+        // .get(indexNumber)
+        System.out.println(names.get(2)); // Mark
 }
