@@ -39,5 +39,8 @@ class Arraylist {
         String[] namesArray = names.toArray(new String[names.size()]);
         namesArray[2] = "Blah";
         System.out.println(Arrays.toString(namesArray));
+        // int index = 3;
+        // String newName = "newName";
+        // names.set(index, newName);
     }
 }
