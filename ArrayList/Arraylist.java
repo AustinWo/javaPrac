@@ -35,5 +35,9 @@ class Arraylist {
         for(String name: names){
             System.out.println(name);
         }
+        // convert ArrayList into an Array
+        String[] namesArray = names.toArray(new String[names.size()]);
+        namesArray[2] = "Blah";
+        System.out.println(Arrays.toString(namesArray));
     }
 }
