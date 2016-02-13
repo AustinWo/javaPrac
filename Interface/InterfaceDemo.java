@@ -12,7 +12,11 @@ interface Greetings {
     }
 }
 
-class Person implements Greetings {
+interface Eat {
+    public void eat();
+}
+
+class Person implements Greetings, Eat {
     // implemented method must be public
     public void sayHello(){
         System.out.println("hello");
