@@ -1,6 +1,9 @@
 class Array{
     public static void main(String[] args){
+        // an array of strings
         String names[] = {"Austin", "Steven", "Jeff"};
+        // an array of numbers
+        int numbers[] = {1,2,3};
         // for loop
         for (int i = 0; i < names.length; i++){
             System.out.println(names[i]);
