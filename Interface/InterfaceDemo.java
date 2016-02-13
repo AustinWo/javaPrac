@@ -25,6 +25,9 @@ class Person implements Greetings, Eat {
     public void sayByeToBeOverridden(){
         System.out.println("new bye bye");
     }
+    public void eat(){
+        System.out.println("I am eating");
+    }
 }
 
 class InterfaceDemo {
