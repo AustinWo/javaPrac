@@ -1,8 +1,10 @@
 class Car {
     private int year; // private
+    static String manufacturer;
     public int distance; // public
     String madeInCountry; // Default access: public
     Car(){
+        manufacturer = "generic";
         year = 2016;
         distance = 0;
         madeInCountry = "USA";
@@ -31,5 +33,6 @@ class PrivateClass {
         System.out.println("Miles driven: " + myFirstCar.getDistance());
         myFirstCar.addDistance(500);
         System.out.println("Miles driven: " + myFirstCar.getDistance());
+        System.out.println(Car.manufacturer);
     }
 }
