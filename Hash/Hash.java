@@ -6,8 +6,9 @@ class Hash {
         // instantiate a hashtable
         Hashtable<String, Integer> numbers = new Hashtable<String, Integer>();
         numbers.put("one", 1);
+        System.out.println(numbers.size()); // 1
         numbers.put("two", 2);
-        System.out.println(numbers.get("one"));
-        System.out.println(numbers.size());
+        System.out.println(numbers.get("one")); // 1
+        System.out.println(numbers.size()); // 2
     }
 }
