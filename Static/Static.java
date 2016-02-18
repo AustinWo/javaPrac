@@ -33,5 +33,6 @@ class Static{
         Car.makeHonkNoise();
         System.out.println("There are " + Car.getNumCarsOnTheMarket() + " cars on the market.");
         System.out.println(Car.constantNum);
+        // Car.constantNum = 20; // cannot assign a final (constant) variable to another value
     }
 }
