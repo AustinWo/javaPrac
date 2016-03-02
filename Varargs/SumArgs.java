@@ -8,5 +8,6 @@ class SumArgs {
     }
     public static void main(String[] args){
         System.out.println(SumArgs.sum(1,2,3,4,5));
+        System.out.println(SumArgs.sum(-1,-2,-3,-4,-5,15));
     }
 }
