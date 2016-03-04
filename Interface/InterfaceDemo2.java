@@ -3,3 +3,10 @@ class InterfaceDemo2 {
 
     }
 }
+
+class Student implements Athlete {
+}
+
+interface Athlete {
+    void run();
+}
