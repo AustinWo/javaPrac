@@ -1,5 +1,7 @@
 class InterfaceDemo2 {
     public static void main(String args[]){
+        Student austin = new Student(5);
+        austin.run();
     }
 }
 
